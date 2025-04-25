@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VITC/Assignments/Semester_6/FPGA PROJECT/Verilog
+vimage_memory
+Z1 !s110 1745216056
+!i10b 1
+!s100 Mgl2Cg;ULf4:aRCHzj>L]2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHF;k:XX^fkX^T^l^Y`9mO2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1745178817
+8image_memory.v
+Fimage_memory.v
+!i122 74
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1745216056.000000
+!s107 tb_rle_decoder.v|tb_image_compression.v|rle_decoder.v|rle_compressor.v|image_memory.v|
+Z6 !s90 -reportprogress|300|image_memory.v|rle_compressor.v|rle_decoder.v|tb_image_compression.v|tb_rle_decoder.v|
+!i113 1
+Z7 tCvgOpt 0
+vrle_compressor
+R1
+!i10b 1
+!s100 ^c:gl@7U@4aGbeMZ;1SzY0
+R2
+Ia`>ZT191DGIBl2=LC0hK01
+R3
+R0
+w1745182207
+8rle_compressor.v
+Frle_compressor.v
+!i122 74
+L0 1 104
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_rle_decoder.v|tb_image_compression.v|rle_decoder.v|rle_compressor.v|image_memory.v|
+R6
+!i113 1
+R7
+vrle_decoder
+R1
+!i10b 1
+!s100 SNQ77^HV4zM?=C:Ylk:SZ1
+R2
+IM2ID8IQ12R1IPmJQ`0F:]2
+R3
+R0
+w1745182267
+8rle_decoder.v
+Frle_decoder.v
+!i122 74
+L0 1 79
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_image_compression
+R1
+!i10b 1
+!s100 E8S`0ID23aiYnPBmiI@TW2
+R2
+IX7aTiN0d?Df_dalS0USkm3
+R3
+R0
+w1745182296
+8tb_image_compression.v
+Ftb_image_compression.v
+!i122 74
+L0 1 128
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_rle_decoder
+R1
+!i10b 1
+!s100 f8ijdk;8::gM8agfe;1ic0
+R2
+IcdfP9m5RAGXQP527IH?oP3
+R3
+R0
+w1745182861
+8tb_rle_decoder.v
+Ftb_rle_decoder.v
+!i122 74
+L0 1 167
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

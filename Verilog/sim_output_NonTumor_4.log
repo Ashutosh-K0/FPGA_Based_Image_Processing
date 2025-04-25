@@ -1,0 +1,34 @@
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c work.tb_image_compression -do "run -all; quit" 
+# Start time: 02:15:09 on Apr 21,2025
+# Loading work.tb_image_compression
+# Loading work.rle_compressor
+# run -all
+# Output           0: Pixel=00, Count=  1
+# Output           1: Pixel=01, Count=  1
+# Output           2: Pixel=02, Count=  2
+# Output           3: Pixel=03, Count=  1
+# === RLE Compression Results ===
+# Original data size:     6 bytes
+# Compressed data size:     4 bytes
+# Compression ratio: 1.50
+# === Compressed Data Verification ===
+# Mismatch at index           0:
+#   Expected: Pixel=01, Count=  2
+#   Actual:   Pixel=00, Count=  1
+# Mismatch at index           1:
+#   Expected: Pixel=02, Count=  3
+#   Actual:   Pixel=01, Count=  1
+# Mismatch at index           2:
+#   Expected: Pixel=03, Count=  1
+#   Actual:   Pixel=02, Count=  2
+# Mismatch at index           3:
+#   Expected: Pixel=04, Count=  2
+#   Actual:   Pixel=03, Count=  1
+# ** Note: $finish    : tb_image_compression.v(126)
+#    Time: 160 ps  Iteration: 0  Instance: /tb_image_compression
+# End time: 02:15:19 on Apr 21,2025, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
